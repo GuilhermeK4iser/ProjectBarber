@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <ImageView
+        android:id="@+id/rectangle_8"
+        android:layout_width="335dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="356dp"
+        android:src="@drawable/rectangle_8"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1" />
+
+    <TextView
+        android:id="@+id/adicionar_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="384dp"
+        android:gravity="top"
+        android:text="@string/adicionar_c"
+        android:textAppearance="@style/adicionar_c"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1" />
+
+    <TextView
+        android:id="@+id/como_voc_av"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="573dp"
+        android:text="@string/como_voc_av"
+        android:textAppearance="@style/como_voc_av"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userhome" />
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#301C08"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1" />
+
+    <View
+        android:id="@+id/arrow_1"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arrow_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1" />
+
+    <View
+        android:id="@+id/line_1"
+        android:layout_width="1dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="843dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/userhome"
+        android:layout_width="39dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="408dp"
+        android:layout_marginBottom="280dp"
+        android:src="@drawable/userhome"
+        app:layout_constraintBottom_toTopOf="@+id/como_voc_av"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

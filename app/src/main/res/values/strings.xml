@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BarberApp</string>
+    <!-- strings.xml -->
+    <string name="adicionar_c">
+        Adicionar comentário...
+    </string>
+    <string name="como_voc_av">
+        Como você avalia sua experiência?
+    </string>
+</resources>
