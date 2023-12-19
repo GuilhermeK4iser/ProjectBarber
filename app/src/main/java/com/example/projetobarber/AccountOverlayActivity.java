@@ -3,6 +3,7 @@ package com.example.projetobarber;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
@@ -46,6 +47,7 @@ public class AccountOverlayActivity extends Dialog {
                     Intent intent = new Intent(context, MainActivity.class);
                     context.startActivity(intent);
                     new UsuarioData(getContext()).deletarDados();
+                    new AgendamentoData(getContext()).deletarTodosOsDados();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

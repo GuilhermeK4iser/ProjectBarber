@@ -53,7 +53,7 @@ public class AgendamentoData extends SQLiteOpenHelper {
         SQLiteDatabase db = getReadableDatabase();
         android.database.Cursor cursor = db.rawQuery("select count(*) from " + TABLE_NAME, null);
         cursor.moveToFirst();
-        cursor.close();
+
         return cursor.getString(0);
     }
 
@@ -66,7 +66,7 @@ public class AgendamentoData extends SQLiteOpenHelper {
             result.append(cursor.getString(0)).append(" ").append(cursor.getString(1)).append(" ").append(cursor.getString(2)).append(" ").append(cursor.getString(3)).append(" ").append(cursor.getString(4)).append(" ").append(cursor.getString(5)).append(" ").append(cursor.getString(6)).append("\n");
             cursor.moveToNext();
         }
-        cursor.close();
+
         return result.toString();
     }
 
@@ -79,7 +79,7 @@ public class AgendamentoData extends SQLiteOpenHelper {
             result.add("ID do agendamento: " + cursor.getString(0) + " | Barbeiro: " + cursor.getString(1) + " | Data: " + cursor.getString(2) + " | Hora: " + cursor.getString(3) + " | Serviço(s): " + cursor.getString(4) + " | Preço (R$): " + cursor.getString(5) + ",00 | Nome legal do cliente: " + cursor.getString(6));
             cursor.moveToNext();
         }
-        cursor.close();
+
         return result;
     }
 
@@ -87,7 +87,7 @@ public class AgendamentoData extends SQLiteOpenHelper {
         SQLiteDatabase db = getReadableDatabase();
         android.database.Cursor cursor = db.rawQuery("PRAGMA table_info(" + TABLE_NAME + ")", null);
         cursor.moveToFirst();
-        cursor.close();
+
         return cursor.getString(0);
     }
 
@@ -100,7 +100,7 @@ public class AgendamentoData extends SQLiteOpenHelper {
             result.append(cursor.getString(0)).append(" ").append(cursor.getString(1)).append("\n");
             cursor.moveToNext();
         }
-        cursor.close();
+
         return result.toString();
     }
 
@@ -115,7 +115,7 @@ public class AgendamentoData extends SQLiteOpenHelper {
         result[3] = cursor.getString(3);
         result[4] = cursor.getString(4);
         result[5] = cursor.getString(5);
-        cursor.close();
+
         return result;
     }
 }
