@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorview"
+    tools:context=".AgendmntListActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/agendmnts_ch_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listheader_border"
+            android:fontFamily="@font/sfpro"
+            android:gravity="center_horizontal"
+            android:paddingHorizontal="20dp"
+            android:text="@string/editar_agendamento"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Spinner
+            android:id="@+id/barbeiro_spinner"
+            style="@android:style/Widget.DeviceDefault.Spinner"
+            android:layout_width="295dp"
+            android:layout_height="56dp"
+            android:background="@drawable/agendmntitem_border"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Spinner
+            android:id="@+id/servs_ch_spinner"
+            style="@android:style/Widget.DeviceDefault.Spinner"
+            android:layout_width="295dp"
+            android:layout_height="56dp"
+            android:background="@drawable/agendmntitem_border"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:id="@+id/calendarChangeView"
+            android:layout_width="270dp"
+            android:layout_height="342dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toEndOf="@+id/textView32"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            app:mcv_calendarMode="month"
+            app:mcv_dateTextAppearance="@style/dateViewCustomStyle"
+            app:mcv_firstDayOfWeek="sunday"
+            app:mcv_headerTextAppearance="@style/dateHeaderCustomStyle"
+            app:mcv_leftArrow="@drawable/minusmonth_resized"
+            app:mcv_rightArrow="@drawable/plusmonth_resized"
+            app:mcv_selectionColor="@color/fundo"
+            app:mcv_showOtherDates="all"
+            app:mcv_weekDayLabels="@array/dias"
+            app:mcv_weekDayTextAppearance="@style/weekViewCustomStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Spinner
+            android:id="@+id/ch_timespinner"
+            style="@android:style/Widget.DeviceDefault.Spinner"
+            android:layout_width="295dp"
+            android:layout_height="56dp"
+            android:background="@drawable/agendmntitem_border"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/agendmnts_ch_disclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/botaoexcluir"
+            android:background="@drawable/buttoncrud"
+            android:padding="3dp"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/ch_final_btn"
+            android:layout_width="221dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/buttonentrar"
+            android:fontFamily="@font/sfpro"
+            android:text="@string/confirmar_ch_agendamento"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ch_timespinner"
+            tools:ignore="TouchTargetSizeCheck" />
+    </TableRow>
+</TableLayout>

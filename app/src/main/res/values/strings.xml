@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Barberita</string>
+
+
+    <string name="adicionar_c">
+        Adicionar comentário...
+    </string>
+    <string name="como_voc_av">
+        Como você avalia sua experiência?
+    </string>
+    <string name="notificacoes">Notificações</string>
+    <string name="usuario">usuário</string>
+    <string name="senha">senha</string>
+    <string name="inicio_de_sessao">Início de sessão</string>
+    <string name="conta">Conta</string>
+    <string name="entrar">Entrar</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="login_ou_registro">Faça login ou registre-se</string>
+    <string name="inicio">Início</string>
+    <string name="barbequita">Bem-vindo à Barbequita!</string>
+    <string name="pagina_usuario">Seu perfil</string>
+    <string name="mais_opcs">Opções da conta</string>
+    <string name="Login">Login</string>
+    <string name="abertura">Criação de conta</string>
+    <string name="aviso_geral">Este aplicativo apenas tem acesso aos arquivos que grava no sistema de arquivos. Não coletamos, armazenamos ou compartilhamos qualquer informação pessoal.\nAo clicar na caixa abaixo e doravante usar este aplicativo, você concorda com tais termos.</string>
+    <string name="conformo_check">Li e estou de acordo com o registrado acima.</string>
+    <string name="button">Criar conta</string>
+    <string name="sair_btn_texto">Sair da conta</string>
+    <string name="excluirconta_btn_texto">Excluir conta permanentemente</string>
+    <string name="confirmar_permanente">Confirmar exclusão permanente</string>
+    <string name="cancelar">Cancelar exclusão</string>
+    <string name="usuario_login_texto">Nome de usuário</string>
+    <string name="senha_login_texto">Senha</string>
+    <string name="saudacao_texto">Bem-vindo de volta!</string>
+    <string name="email_contato">Seu email:</string>
+    <string name="telefone_contato">Seu número pessoal:</string>
+    <string name="cep_atendimento">CEP (é usado para buscar a unidade mais próxima):\n</string>
+    <string name="ch_pdata_texto">Alterar esses dados</string>
+    <string name="confirmar_alteracao_texto">Confirmar alterações</string>
+    <string name="nomelegal">Seu nome legal:</string>
+    <string name="nomelegalread_view">Seu nome legal (só pode ser alterado uma vez):</string>
+    <string name="alterar_dados_de_perfil">ALTERAR DADOS DE PERFIL</string>
+    <string name="agendamento">Agendamento</string>
+    <string name="data_e_hora_cabecalho">Escolha a data e a hora:</string>
+    <string name="hora_cabecalho">Hora:</string>
+    <string name="finalizar_agendamento">Finalizar o agendamento</string>
+    <string name="data_cabecalho">Data:</string>
+    <string name="avaliacao">Avaliação</string>
+    <string name="ultimo_serv_avaliar">Avalie seu último serviço:</string>
+    <string name="nota_faixa">Dê uma nota de 1 a 5:</string>
+    <string name="observacoes_serv">Observações:</string>
+    <string name="escolher_servico">Selecione o(s) serviço(s):</string>
+    <string name="corte_texto">Corte</string>
+    <string name="rs35">R$ 35,00</string>
+    <string name="rs10">R$ 10,00</string>
+    <string name="rs20">R$ 20,00</string>
+    <string name="pezinho">Pezinho</string>
+    <string name="barba">Barba</string>
+    <string name="proximo">Próximo</string>
+    <string name="agendar_novo">Agendar um horário</string>
+    <string name="ver_agendamentos">Ver seus agendamentos</string>
+    <string name="pagina_usu_cabecalho">Página do usuário</string>
+    <string name="exibir_dados_pessoais">EXIBIR DADOS PESSOAIS</string>
+    <string name="agendamentos_historico">Agendamentos</string>
+    <string name="nome_usuario_aqui">[Nome usuário]</string>
+    <string-array name="dias">
+        <item name="segunda">S</item>
+        <item name="terca">T</item>
+        <item name="quarta">Q</item>
+        <item name="quinta">Q</item>
+        <item name="sexta">S</item>
+        <item name="sabado">S</item>
+        <item name="domingo">D</item>
+    </string-array>
+    <string name="todos_os_agendamentos">Todos os seus agendamentos</string>
+    <string name="rm_agendmnt">Remover agendamento</string>
+    <string name="ch_agendmnt">Editar agendamento</string>
+    <string name="title_activity_agendmnt_edit">AgendmntEditActivity</string>
+    <string name="editar_agendamento">Editar agendamento de id</string>
+    <string name="confirmar_ch_agendamento">Confirmar edição de agendamento</string>
+</resources>

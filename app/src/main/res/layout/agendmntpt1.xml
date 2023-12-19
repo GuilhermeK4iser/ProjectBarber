@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorview">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        style="@style/color" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="203dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/sfpro"
+        android:text="Agendamento"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="51dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/barrademenu"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfpro"
+        android:text="Selecione o barbeiro:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <View
+        android:id="@+id/barb2_view"
+        android:layout_width="291dp"
+        android:layout_height="118dp"
+        android:background="@drawable/buttoncrud"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/barb3_view"
+        android:layout_width="291dp"
+        android:layout_height="118dp"
+        android:background="@drawable/buttoncrud"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/barb1_view"
+        android:layout_width="291dp"
+        android:layout_height="118dp"
+        android:background="@drawable/buttoncrud"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.249"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/view21"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:background="@drawable/viewcircle"
+        app:layout_constraintBottom_toBottomOf="@+id/barb1_view"
+        app:layout_constraintEnd_toEndOf="@+id/barb1_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/barb1_view"
+        app:layout_constraintTop_toTopOf="@+id/barb1_view"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view22"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:background="@drawable/viewcircle"
+        app:layout_constraintBottom_toBottomOf="@+id/barb2_view"
+        app:layout_constraintEnd_toEndOf="@+id/barb2_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/barb2_view"
+        app:layout_constraintTop_toTopOf="@+id/barb2_view"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view23"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:background="@drawable/viewcircle"
+        app:layout_constraintBottom_toBottomOf="@+id/barb3_view"
+        app:layout_constraintEnd_toEndOf="@+id/barb3_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/barb3_view"
+        app:layout_constraintTop_toTopOf="@+id/barb3_view" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="79dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view21"
+        app:layout_constraintEnd_toEndOf="@+id/view21"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/barb1_view"
+        app:layout_constraintTop_toTopOf="@+id/view21"
+        app:layout_constraintVertical_bias="0.523"
+        app:srcCompat="@drawable/barbeiro1" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="112dp"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view22"
+        app:layout_constraintEnd_toEndOf="@+id/view22"
+        app:layout_constraintStart_toStartOf="@+id/barb2_view"
+        app:layout_constraintTop_toTopOf="@+id/view22"
+        app:srcCompat="@drawable/barbeiro2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="88dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view23"
+        app:layout_constraintEnd_toEndOf="@+id/view23"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="@+id/barb3_view"
+        app:layout_constraintTop_toTopOf="@+id/view23"
+        app:layout_constraintVertical_bias="0.569"
+        app:srcCompat="@drawable/barbeiro3" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+
+        android:text="Roberto Firmino Souza"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/barb1_view"
+        app:layout_constraintEnd_toEndOf="@+id/barb1_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/barb1_view"
+        app:layout_constraintTop_toTopOf="@+id/barb1_view"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+
+        android:text="38 anos"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/barb1_view"
+        app:layout_constraintEnd_toEndOf="@+id/barb1_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/barb1_view"
+        app:layout_constraintTop_toTopOf="@+id/barb1_view"
+        app:layout_constraintVertical_bias="0.88" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+
+        android:text="Erick de Oliveira"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/barb2_view"
+        app:layout_constraintEnd_toEndOf="@+id/barb2_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/barb2_view"
+        app:layout_constraintTop_toTopOf="@+id/barb2_view"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+
+        android:text="35 anos"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/barb2_view"
+        app:layout_constraintEnd_toEndOf="@+id/barb2_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/barb2_view"
+        app:layout_constraintTop_toTopOf="@+id/barb2_view"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+
+        android:text="Carlos Mendel"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/barb3_view"
+        app:layout_constraintEnd_toEndOf="@+id/barb3_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/barb3_view"
+        app:layout_constraintTop_toTopOf="@+id/barb3_view"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+
+        android:text="32 anos"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/barb3_view"
+        app:layout_constraintEnd_toEndOf="@+id/barb3_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/barb3_view"
+        app:layout_constraintTop_toTopOf="@+id/barb3_view"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <Button
+        android:id="@+id/proxi_btn"
+        android:layout_width="143dp"
+        android:layout_height="73dp"
+        android:background="@drawable/buttonentrar"
+        android:fontFamily="@font/sfpro"
+        android:text="Próximo"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
+</androidx.constraintlayout.widget.ConstraintLayout>

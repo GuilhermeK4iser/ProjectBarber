@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/colorview">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="53dp">
+
+        <TextView
+            android:id="@+id/fnread_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/telefone_contato"
+            app:fontFamily="@font/sfpro"
+            android:textColor="@color/white"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+
+        <TextView
+            android:id="@+id/emailread_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/email_contato"
+            app:fontFamily="@font/sfpro"
+            android:textColor="@color/white"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="409dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="95dp">
+
+        <TextView
+            android:id="@+id/cepread_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/cep_atendimento"
+            android:textColor="@color/white"
+            app:fontFamily="@font/sfpro" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="-3dp">
+
+        <TextView
+            android:id="@+id/nomelegread_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:text="@string/nomelegal"
+            android:textColor="@color/white"
+            app:fontFamily="@font/sfpro" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="222dp">
+
+        <Button
+            android:id="@+id/irpara_alteracoes_btn"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="marquee"
+            android:onClick="abrirEdicaoDadosDialogo"
+            android:text="@string/ch_pdata_texto"
+            android:textSize="15sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </TableRow>
+
+</RelativeLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorview">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        style="@style/color" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="203dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/sfpro"
+        android:text="@string/agendamento"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="51dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/barrademenu"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfpro"
+        android:text="@string/escolher_servico"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <View
+        android:id="@+id/serv2_view"
+        android:layout_width="291dp"
+        android:layout_height="118dp"
+        android:background="@drawable/buttoncrud"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/serv3_view"
+        android:layout_width="291dp"
+        android:layout_height="118dp"
+        android:background="@drawable/buttoncrud"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/serv1_view"
+        android:layout_width="291dp"
+        android:layout_height="118dp"
+        android:background="@drawable/buttoncrud"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.267"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+        android:text="@string/corte_texto"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/serv1_view"
+        app:layout_constraintEnd_toEndOf="@+id/serv1_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/serv1_view"
+        app:layout_constraintTop_toTopOf="@+id/serv1_view"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+        android:textAlignment="center"
+        android:text="@string/rs35"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/serv1_view"
+        app:layout_constraintEnd_toEndOf="@+id/serv1_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/serv1_view"
+        app:layout_constraintTop_toTopOf="@+id/serv1_view"
+        app:layout_constraintVertical_bias="0.88" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+        android:text="@string/pezinho"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/serv2_view"
+        app:layout_constraintEnd_toEndOf="@+id/serv2_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/serv2_view"
+        app:layout_constraintTop_toTopOf="@+id/serv2_view"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+        android:text="@string/rs10"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/serv2_view"
+        app:layout_constraintEnd_toEndOf="@+id/serv2_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/serv2_view"
+        app:layout_constraintTop_toTopOf="@+id/serv2_view"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+        android:text="@string/barba"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/serv3_view"
+        app:layout_constraintEnd_toEndOf="@+id/serv3_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/serv3_view"
+        app:layout_constraintTop_toTopOf="@+id/serv3_view"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/sfpro"
+        android:text="@string/rs20"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/serv3_view"
+        app:layout_constraintEnd_toEndOf="@+id/serv3_view"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/serv3_view"
+        app:layout_constraintTop_toTopOf="@+id/serv3_view"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="85dp"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="@+id/serv2_view"
+        app:layout_constraintEnd_toEndOf="@+id/serv2_view"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="@+id/serv2_view"
+        app:layout_constraintTop_toTopOf="@+id/serv2_view"
+        app:srcCompat="@drawable/servicofuncir" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="85dp"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="@+id/serv1_view"
+        app:layout_constraintEnd_toEndOf="@+id/serv1_view"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="@+id/serv1_view"
+        app:layout_constraintTop_toTopOf="@+id/serv1_view"
+        app:layout_constraintVertical_bias="0.687"
+        app:srcCompat="@drawable/servicofuncir" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="85dp"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="@+id/serv3_view"
+        app:layout_constraintEnd_toEndOf="@+id/serv3_view"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="@+id/serv3_view"
+        app:layout_constraintTop_toTopOf="@+id/serv3_view"
+        app:srcCompat="@drawable/servicofuncir" />
+
+    <Button
+        android:id="@+id/para_agpt3_btn"
+        android:layout_width="142dp"
+        android:layout_height="64dp"
+        android:background="@drawable/buttonentrar"
+        android:fontFamily="@font/sfpro"
+        android:text="@string/proximo"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+</androidx.constraintlayout.widget.ConstraintLayout>
