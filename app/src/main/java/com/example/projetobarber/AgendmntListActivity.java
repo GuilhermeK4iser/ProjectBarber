@@ -48,8 +48,8 @@ public class AgendmntListActivity extends AppCompatActivity implements OnCreateC
             finish();
         }
         List<String> agendmnts = age_data.getAllAgendmntsArray();
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.simple_list_item_whitetext, agendmnts);
-        ListView listView = (ListView) findViewById(R.id.agendmnts_list);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.simple_list_item_whitetext, agendmnts);
+        ListView listView = findViewById(R.id.agendmnts_list);
         listView.setAdapter(adapter);
         listView.setOnCreateContextMenuListener(this);
     }

@@ -36,6 +36,7 @@ public class UsuarioData extends SQLiteOpenHelper {
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery("select nome_legal from usuario", null);
         cursor.moveToFirst();
+        cursor.close();
         return cursor.getString(0);
     }
 
@@ -43,6 +44,7 @@ public class UsuarioData extends SQLiteOpenHelper {
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery("select email from usuario", null);
         cursor.moveToFirst();
+        cursor.close();
         return cursor.getString(0);
     }
 
@@ -50,6 +52,7 @@ public class UsuarioData extends SQLiteOpenHelper {
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery("select cep from usuario", null);
         cursor.moveToFirst();
+        cursor.close();
         return cursor.getString(0);
     }
 
@@ -57,6 +60,7 @@ public class UsuarioData extends SQLiteOpenHelper {
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery("select telefone from usuario", null);
         cursor.moveToFirst();
+        cursor.close();
         return cursor.getString(0);
     }
 
@@ -64,6 +68,7 @@ public class UsuarioData extends SQLiteOpenHelper {
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery("select senha from usuario", null);
         cursor.moveToFirst();
+        cursor.close();
         return cursor.getString(0);
     }
 
@@ -71,6 +76,7 @@ public class UsuarioData extends SQLiteOpenHelper {
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery("select nome_usuario from usuario", null);
         cursor.moveToFirst();
+        cursor.close();
         return cursor.getString(0);
     }
 
@@ -78,6 +84,7 @@ public class UsuarioData extends SQLiteOpenHelper {
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery("select _id from usuario", null);
         cursor.moveToFirst();
+        cursor.close();
         return cursor.getInt(0);
     }
 }

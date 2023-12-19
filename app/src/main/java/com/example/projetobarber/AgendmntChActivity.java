@@ -22,17 +22,12 @@ import android.widget.Toast;
 
 import com.example.projetobarber.usr_vars.AgendamentoData;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
-import java.util.Locale;
 
 public class AgendmntChActivity extends AppCompatActivity {
-
-    @SuppressLint("SimpleDateFormat")
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

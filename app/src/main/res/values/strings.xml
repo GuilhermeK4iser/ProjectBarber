@@ -78,4 +78,8 @@
     <string name="title_activity_agendmnt_edit">AgendmntEditActivity</string>
     <string name="editar_agendamento">Editar agendamento de id</string>
     <string name="confirmar_ch_agendamento">Confirmar edição de agendamento</string>
+    <string name="selecio_barbeiro">Selecione o barbeiro:</string>
+    <string name="roberto_firmino_souza">Roberto Firmino Souza</string>
+    <string name="erick_de_oliveira">Erick de Oliveira</string>
+    <string name="carlos_mendel">Carlos Mendel</string>
 </resources>
